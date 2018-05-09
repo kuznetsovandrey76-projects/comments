@@ -15,6 +15,10 @@
 14. Создаем новое приложени https://dashboard.heroku.com/apps
 15. Заходим во вкладку Resources и добавляем Add-ons - Heroku Postgres
 16. В https://data.heroku.com/ смотрим URI
-14. Через cmd заходим в python
+17. Через cmd заходим в python
 	from project import db (где project - название основного файла в директории (ex: project.py))
 	db.create_all() (создает таблицу в базе данных - я использую pgAdmin 3)
+
+18. touch Procfile
+19. pip install gunicorn
+20. pip freeze > requirements.txt
