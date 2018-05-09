@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index Page</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<a href="{{ url_for('sign') }}">sign</a>
+	{% for i in result %}
+	<h1>{{ i.name }}</h1>
+	<p>{{ i.comment }}</p>
+	{% endfor %}
+</body>
+</html>
