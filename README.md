@@ -24,4 +24,5 @@
 20. pip freeze > requirements.txt
 21. heroku login и т.д.
 
-heroku open - для запуска проекта
+heroku open - для запуска проекта через heroky
+python project.py - для запуска через http://127.0.0.1:5000/

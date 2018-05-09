@@ -1,3 +1,44 @@
 body {
+	width: 90%;
+	margin: auto;
+	background: khaki;
+}
+header {
+	text-align: center;
+	margin-top: 10px;
+}
+a {
+	text-decoration: none;
+}
+h1, h3, p {
+	margin: 0;
+}
+
+.post {
+	border: 1px solid black;
 	background: lightblue;
+	padding: 10px;
+	margin: 10px;
+}
+.post p {
+	font-style: italic;
+	margin-left: 10px;
+}
+
+form {
+	width: 50%;
+	margin: 10px auto;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.form_item {
+	width: 100%;
+	margin: 2px auto;
+	padding: 2px 0;
+	border: none;
+}
+
+button {
+	background: lightgreen;
 }

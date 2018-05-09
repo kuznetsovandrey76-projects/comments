@@ -6,10 +6,17 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-	<a href="{{ url_for('sign') }}">sign</a>
-	{% for i in result %}
-	<h1>{{ i.name }}</h1>
-	<p>{{ i.comment }}</p>
-	{% endfor %}
+	<header>
+		<h1>Welcome to my Blog</h1>
+		<a href="{{ url_for('sign') }}">Оставить новую запись</a>		
+	</header>
+	<section>				
+		{% for i in result %}
+		<div class="post">
+			<h3>{{ i.name }}</h3>
+			<p>{{ i.comment }}</p>			
+		</div>
+		{% endfor %}
+	</section>
 </body>
 </html>
