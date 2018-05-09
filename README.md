@@ -22,3 +22,4 @@
 18. touch Procfile
 19. pip install gunicorn
 20. pip freeze > requirements.txt
+21. heroku login и т.д.
