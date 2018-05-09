@@ -5,7 +5,7 @@ app = Flask(__name__)
 # pgAdmin 3
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/nameDB'
 # Heroku
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://mcjjfkahcjovvg:cae8cb2dbae4fd3c5ac559abdbde638127fbae734f25f9a71588e49b5c5b5d45@ec2-54-75-246-50.eu-west-1.compute.amazonaws.com:5432/ddhr464rkg59r6'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://hxeqjnnqpawpvd:da95269ab4f16bd45f511569568d791c6d491671ddb216c809701632eced90cb@ec2-54-247-89-189.eu-west-1.compute.amazonaws.com:5432/dc4dqg53di349k'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
