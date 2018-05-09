@@ -14,7 +14,8 @@
 		{% for i in result %}
 		<div class="post">
 			<h3>{{ i.name }}</h3>
-			<p>{{ i.comment }}</p>			
+			<p>{{ i.comment }}</p>
+			<a href="delete/{{i.id}}">delete</a>			
 		</div>
 		{% endfor %}
 	</section>
